@@ -8,6 +8,21 @@ body {
 	padding: 0;
 }
 
+nav {
+	margin: 0 0 40px;
+}
+
+.nav-list	{
+	margin: 0 auto;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+	max-width: 80%;
+}
+
 .cv-container {
 	width: 80%;
 	max-width: 800px;
@@ -15,6 +30,12 @@ body {
 	padding: 20px;
 	background-color: #fff;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+	margin: 30px 0 0;
+	max-width: 200px;
+	border-radius: 100%;
 }
 
 header {
@@ -49,7 +70,7 @@ section ul {
 	margin: 10px 0;
 }
 
-.education-item,
+.about-item,
 .experience-item {
 	margin-bottom: 15px;
 }
@@ -57,4 +78,8 @@ section ul {
 ul {
 	list-style-type: square;
 	padding-left: 20px;
+}
+
+.logo {
+	margin: 0 0 15px;
 }

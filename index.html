@@ -13,43 +13,82 @@
 <body>
 	<div class="cv-container">
 		<header>
-			<h1>John Doe</h1>
-			<p>Software Developer</p>
-		</header>
-		<section class="contact-info">
-			<h2>Contact Information</h2>
-			<p>Email: john.doe@example.com</p>
-			<p>Phone: (123) 456-7890</p>
-			<p>Address: 1234 Main St, Anytown, USA</p>
-		</section>
-		<section class="education">
-			<h2>Education</h2>
-			<div class="education-item">
-				<h3>University of Example</h3>
-				<p>Bachelor of Science in Computer Science, 2015 - 2019</p>
-			</div>
-		</section>
-		<section class="experience">
-			<h2>Work Experience</h2>
-			<div class="experience-item">
-				<h3>Example Company</h3>
-				<p>Software Developer, 2019 - Present</p>
-				<ul>
-					<li>Developed and maintained web applications using JavaScript, HTML, and CSS.</li>
-					<li>Collaborated with cross-functional teams to deliver high-quality products.</li>
+			<nav>
+				<ul class="nav-list">
+					<li><a href="#contact-info">Contacts</a></li>
+					<li><a href="#about">Who I am</a></li>
+					<li><a href="#code">Code</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#projects">Projects</a></li>
+					<li><a href="#education">Education</a></li>
 				</ul>
-			</div>
-		</section>
-		<section class="skills">
-			<h2>Skills</h2>
-			<ul>
-				<li>JavaScript</li>
-				<li>HTML and CSS</li>
-				<li>React</li>
-				<li>Node.js</li>
-				<li>Python</li>
-			</ul>
-		</section>
+			</nav>
+			<h1>Lev Klevtsevitch</h1>
+			<h2>sitl_idnm</h2>
+			<p>Front-End Developer</p>
+			<img src="pictures/me.jpg" class="photo" alt="My face">
+		</header>
+		<main>
+			<section id="contact-info" class="contact-info">
+				<h2>Contacts</h2>
+				<ul>
+					<li><a href="https://t.me/sitl_idnm">Telegram</a></li>
+					<li><a href="https://github.com/sitl-idnm">Github</a></li>
+					<li><a href="mailto:sitl.idnm.dev@gmail.com">Email</a></li>
+					<li><a href="https://discordapp.com/users/466671509159673857">Discord</a></li>
+				</ul>
+			</section>
+			<section id="about" class="about">
+				<h2>Who I am</h2>
+				<div class="about-item">
+					<p>I’m a junior Front-End Developer at an advertising agency with a year and a half of experience.</p>
+				</div>
+				<div class="about-item">
+					<p>Now I want to grow in this direction to make myself and my wife happier.</p>
+				</div>
+				<div class="about-item">
+					<p>And move to Croatia :)</p>
+				</div>
+			</section>
+			<section id="code" class="code">
+				<h2>Code</h2>
+				<p>
+					function filter_list(l) {
+					// Return a new array with the strings filtered out
+					return l.filter(item => typeof item === 'number');
+					}
+				</p>
+			</section>
+			<section id="skills" class="skills">
+				<h2>Skills</h2>
+				<ul>
+					<li>JS</li>
+					<li>HTML, CSS</li>
+					<li>Git</li>
+					<li>Figma</li>
+					<li>I know very little about Reactn</li>
+				</ul>
+			</section>
+			<section id="projects" class="projects">
+				<h2>Projects</h2>
+				<ul>
+					<li><a href="https://sweetcorp.webflow.io/">SweetCorp</a></li>
+					<li><a href="https://infodevelopmentpreview.ru/">Mediatrust</a></li>
+					<li><a href="https://vesdb.io/">VES</a></li>
+				</ul>
+			</section>
+			<section id="education" class="education">
+				<h2>Education</h2>
+				<p>I don't have an education.</p>
+				<p>I didn't take the English test</p>
+			</section>
+		</main>
+		<footer>
+			<img src="images/logo.svg" alt="RS-school Logo" class="logo">
+			<a href="https://github.com/sitl-idnm">Github</a>
+			<p>2024</p>
+			<a href="https://rs.school/courses/javascript-ru">Course Link</a>
+		</footer>
 	</div>
 </body>
 
